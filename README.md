@@ -13,9 +13,7 @@ This is a solution to the [Blogr landing page](https://www.frontendmentor.io/cha
 
 ---
 ## 🔗 Links
-[View the live site](https://fm-blogr-landing-page.vercel.app/)
-
-[See the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responding-landing-page-using-media-query-DJ4h9iHrp)
+[View the site live](https://blogr-landing-page-tawny-iota.vercel.app/)
 
 ---
 ## 🛠 Tools and technologies 
