@@ -1,0 +1,131 @@
+.fist-section{
+    /* overflow:hidden;     */
+    position:relative;
+    padding: 0 0 0 42px;
+}
+.fist-section h2{    
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    color: #1F3E5A;
+    margin-top: 150px;
+}
+
+
+.fist-section .container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fist-section .left, .fist-section .right {
+    width: 50%;
+}
+
+.fist-section .left{
+    margin: 93px 0 0 93px;
+}
+
+.fist-section .right img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10%;
+    width: 45%;
+}
+
+
+.fist-section h3{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #1F3E5A;
+}
+
+.fist-section p{
+    max-width: 80%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #4C5862;
+    margin-bottom: 64px;
+}
+
+.fist-section .mobile{
+    display: none;
+}
+
+/* ---------------------RESPONSIVE */
+
+@media all and (max-width: 1400px){
+    .fist-section .right img{
+        position: absolute;
+        width: 55%;
+        right: -15%;
+    }
+}
+
+@media all and (max-width: 1200px){
+    .fist-section .right img{
+        position: absolute;
+        width: 60%;
+        right: -20%;
+    }
+}
+
+
+@media all and (max-width: 1100px){
+    .fist-section .right img{
+        position: absolute;
+        width: 70%;
+        right: -30%;
+    }
+}
+
+@media all and (max-width: 925px){
+    .fist-section{
+        padding: 0 24px;
+    }
+
+    .fist-section h2{
+    font-size: 28px;
+    line-height: 43px;
+    letter-spacing: -0.84px;
+    margin: 100px 0 38px 0;
+    }
+
+    .fist-section .container{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+    }
+
+    .fist-section .left{
+        margin: 0;
+        width: 100%;
+    }
+
+    .fist-section h3{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .fist-section p{
+        padding: 0;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .fist-section .right{
+        display: none;
+    }
+    .fist-section .mobile{
+        display: block;
+    }
+}

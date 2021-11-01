@@ -1,0 +1,107 @@
+.second-section{
+    margin-top: 100px;
+    background: url("./images/bg-pattern-circles.svg") no-repeat bottom left, linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    border-radius: 0px 100px;
+    position: relative;
+}
+
+.second-section .section-container{
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.second-section .content, .second-section .media{
+    width: 50%;
+}
+
+.second-section .media{
+    position: absolute;
+}
+
+.second-section .content{
+    margin: 111px 0;
+    margin-left: 55%;
+    font-family: 'Overpass', sans-serif;
+    color: #FFFFFF;
+    max-width: 520px;
+}
+
+.second-section h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    letter-spacing: -1.2px;
+    margin-bottom: 20px;
+    
+}
+
+.second-section p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+
+/* ---------------------RESPONSIVE */
+
+@media all and (max-width: 1100px){
+    .second-section .media img{
+        max-height: 500px;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .second-section .media img{
+        max-height: 480px;
+    }
+}
+
+@media all and (max-width: 925px){
+    .second-section .section-container{
+        flex-direction: column;
+    }
+    .second-section .media{
+        position: relative;
+        width:100%;
+    }
+
+    .second-section .media img{
+        position: relative;
+        width:100%; 
+        margin-top: -25%;       
+    }
+
+    .second-section .content{
+        margin: 111px 0;
+        margin: 50px 0 100px 0;
+        width: 100%;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .second-section h2{
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    font-family: 'Overpass', sans-serif;
+    }
+    
+    .second-section p{
+        text-align: center;
+    }
+
+    .second-section{
+        background: url("./images/bg-pattern-circles.svg") no-repeat top, linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+        background-size: contain;
+        background-position: 0 -30%;
+    }
+
+
+}

@@ -1,0 +1,231 @@
+header{    
+    background: url(images/bg-pattern-intro.svg), linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+    background-position: center ;
+    background-size: cover;
+    height: 600px;
+    border-radius: 0px 0px 0px 100px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 42px;
+}
+
+nav{
+    max-width: 1200px;
+    display: flex;
+    margin: 63px auto 63px auto;
+    position: relative;
+    align-items: center;
+}
+
+nav .logo{
+    width: 101px;
+    height: 40px;
+    margin-right: 65px;
+}
+
+.desktop-nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+nav .account-section{
+    position: absolute;
+    right: 0;
+}
+
+header .primary-button{    
+    width: 137px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF505C;
+    margin-left: 32px;
+}
+
+header .primary-button:hover{
+    background: #FF7B86;
+    color: #fff;
+}
+
+nav .account-section .nav-link{
+    background: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    /* RESET */
+    border: none;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------header contetnt */
+
+header .content{
+    margin: 132px auto;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+
+header .content h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 98px;    
+    letter-spacing: -1.92px;
+    color: #FFFFFF;
+
+}
+
+header .content h3{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+header .secondary-button{    
+    width: 137px;
+    height: 48px;
+    background: transparent;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 32px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+
+header .secondary-button:hover{    
+    width: 137px;
+    height: 48px;
+    background: #FFF;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF7B86;
+    margin-left: 32px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+
+header .content .btn-container{
+    margin: 32px auto;
+}
+
+/* -----------------------MOBILE */
+
+.mobile-menu-trigger{
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.mobile-menu-container{
+    display: none;
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+}
+.close-icon-hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+/* ---------------------RESPONSIVE */
+
+@media all and (max-width: 1400px){
+    
+}
+
+@media all and (max-width: 1200px){
+    nav{
+        max-width: 1000px;
+    }
+}
+
+
+@media all and (max-width: 963px){
+    header .content{
+        margin: 92px auto;
+    }
+}
+
+
+@media all and (max-width: 925px){
+    .mobile-menu-trigger{
+        display: block;
+    }
+    .desktop-nav-menu{
+        display: none;
+    }
+
+    nav{
+        margin: 56px auto;
+    }
+}
+
+@media all and (max-width: 768px){
+    header .content h1{
+        font-size: 54px;
+    
+    }
+}
+
+@media all and (max-width: 576px){
+    header .content{
+        margin: 120px 0;
+    }
+
+    header .content h1{
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: -1.08px;
+        font-family: 'Overpass', sans-serif;    
+    }
+}
+
+@media all and (max-width: 513px){
+    header .content h1{
+        font-size: 36px;  
+        line-height: 35px;
+    }
+    header .content h3{
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 24px;
+    }
+    header .secondary-button{
+        margin-left: 16px;
+    }
+
+    header .primary-button{
+        margin-left: 16px;
+    }
+
+    header{
+        padding: 0 24px;
+    }
+}

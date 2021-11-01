@@ -1,0 +1,74 @@
+.reverse-section-1 .container{
+    flex-direction: row-reverse;
+}
+
+.reverse-section-1 .right img{
+    left: -10%;
+}
+
+@media all and (max-width: 1400px){
+    .reverse-section-1 .right img{
+        position: absolute;
+        width: 55%;
+        right: -15%;
+    }
+}
+
+@media all and (max-width: 1200px){
+    .reverse-section-1 .right img{
+        position: absolute;
+        width: 60%;
+        right: -20%;
+    }
+}
+
+
+@media all and (max-width: 1100px){
+    .reverse-section-1 .right img{
+        position: absolute;
+        width: 70%;
+        right: -30%;
+    }
+}
+
+@media all and (max-width: 925px){
+    .reverse-section-1{
+        padding: 0 24px;
+    }
+
+    .reverse-section-1 h2{
+    font-size: 28px;
+    line-height: 43px;
+    letter-spacing: -0.84px;
+    margin: 100px 0 38px 0;
+    }
+
+    .reverse-section-1 .container{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+    }
+
+    .reverse-section-1 .left{
+        margin: 0;
+        width: 100%;
+    }
+
+    .reverse-section-1 h3{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .reverse-section-1 p{
+        padding: 0;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .reverse-section-1 .right{
+        display: none;
+    }
+    .reverse-section-1 .mobile{
+        display: block;
+    }
+}
